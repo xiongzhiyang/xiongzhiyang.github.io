@@ -25,9 +25,9 @@ BACKGROUND = "#333";
 BLENDING = true;
 
 /* if empty the text will be a random number */
-var TEXT;
+var TEXT = "土匪大傻逼";
 num = 0;
-TEXTArray = ["��", "��Զ", "Ҳ", "������", "��", "վ��", "����", "���ѹ�", "������", "��Ϊ", "��", "֪����", "��", "����", "������", "���", "ʱ��", "����", "��", "��", "��", "��", "��", "��", "��"];
+TEXTArray = ["ƒ„", "”¿‘∂", "“≤", "ø¥≤ªº˚", "Œ“", "’æ‘⁄", "¥∞±ﬂ", "◊Óƒ—π˝", "µƒ—˘◊”", "“ÚŒ™", "ƒ„", "÷™µ¿µƒ", "‘⁄", "À˘”–", "ø¥≤ªº˚", "ƒ„µƒ", " ±∫Ú", "≤≈ «", "◊Ó", "ƒ—", "π˝", "µƒ", "Œ“", "∞Æ", "ƒ„"];
 
 QUALITY_TO_FONT_SIZE = [10, 12, 40, 50, 100, 350];
 QUALITY_TO_SCALE = [20, 6, 4, 2, 0.9, 0.5];
@@ -92,7 +92,7 @@ window.onload = function () {
 
 		tctx.font = "bold " + QUALITY_TO_FONT_SIZE[QUALITY] + "px " + FANCY_FONT;
 
-		//tctx.textAlign='center';//�ı�ˮƽ���뷽ʽ
+		//tctx.textAlign='center';//Œƒ±æÀÆ∆Ω∂‘∆Î∑Ω Ω
 		//tctx.textBaseline='middle';
 
 		//tctx.strokeStyle = "black";
